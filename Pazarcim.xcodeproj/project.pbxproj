@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A2FF2F62214B96100CCCAD9 /* Pazarcim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pazarcim.entitlements; sourceTree = "<group>"; };
 		EC49EB4B221358890063089A /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		EC49EB4D2213729B0063089A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC49EB5F2213795C0063089A /* ios_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_120.png; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		ECE82C16220DCF9B00873617 /* Pazarcim */ = {
 			isa = PBXGroup;
 			children = (
+				3A2FF2F62214B96100CCCAD9 /* Pazarcim.entitlements */,
 				EC49EB4B221358890063089A /* splash.png */,
 				ECE82C17220DCF9B00873617 /* AppDelegate.swift */,
 				ECE82C19220DCF9B00873617 /* ViewController.swift */,
@@ -102,6 +104,11 @@
 				TargetAttributes = {
 					ECE82C13220DCF9B00873617 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -292,13 +299,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RUJ4R822NY;
+				DEVELOPMENT_TEAM = 29J29C24M6;
 				INFOPLIST_FILE = Pazarcim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pazarcimapp.Pazarcim;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazarcimapp.pazarcimapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,13 +318,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RUJ4R822NY;
+				DEVELOPMENT_TEAM = 29J29C24M6;
 				INFOPLIST_FILE = Pazarcim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pazarcimapp.Pazarcim;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazarcimapp.pazarcimapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
